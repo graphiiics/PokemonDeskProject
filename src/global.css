@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif, Verdana, Arial, Helvetica;
+}
+
+
+html {
+    --color-1: #00AF91;
+    --color-2: #007965;
+    --color-3: #F58634;
+    --color-4: #FFCC29;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: var(--color-1);
+}
+
+a{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'pokemonHollow';
+    src: local('pokemonHollow'), url(./utils/fonts/Pokemon\ Hollow.ttf) format('woff');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+}
+@font-face {
+    font-family: 'pokemonSolid';
+    src: local('pokemonSolid'), url(./utils/fonts/Pokemon\ Solid.ttf) format('woff');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+}
