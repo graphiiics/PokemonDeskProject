@@ -1,0 +1,22 @@
+.info-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+}
+
+.title{
+    margin: 0 auto;
+    font-size: 50px;
+    font-family: pokemonHollow;
+    letter-spacing: 9px;
+    color: var(--color-2);
+}
+
+.message{
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: var(--color-4);
+    text-shadow: 0px 1px 7px rgb(0, 0, 0);
+}
